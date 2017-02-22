@@ -8046,7 +8046,7 @@ TimeGrid.mixin({
 		}
 
 		return '<a class="' + classes.join(' ') + '"' +
-				+ (event.elTitle ? ' title="'+htmlEscape(event.elTitle)+'"' : '') +
+				(event.elTitle ? ' title="'+htmlEscape(event.elTitle)+'"' : '') +
 			(event.url ?
 				' href="' + htmlEscape(event.url) + '"' :
 				''
